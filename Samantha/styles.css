@@ -1,0 +1,211 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; /* Evita el desplazamiento horizontal */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.container-fluid {
+  background-color: #EF476F;
+  padding: 2%;
+  margin: 0;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+}
+
+.logo {
+  width: 4%;
+  height: 4%;
+  margin-right: 20px;
+}
+
+/* Sección 1 */
+.secc1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.secc1-content {
+  color: white;
+  background-image: url('cdmx.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.secc1-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  z-index: 0;
+}
+
+.secc1-content > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Estilos para el título y el párrafo */
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 7rem;
+  letter-spacing: 10px;
+  margin: 5px;
+}
+
+.titulo-responsive {
+  font-size: 7rem;
+}
+
+@media screen and (max-width: 768px) {
+  .titulo-responsive {
+      font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .titulo-responsive {
+      font-size: 3rem;
+  }
+}
+
+p {
+  font-family: sans-serif;
+  font-weight: 500;
+  margin: 2px;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+/* Estilos para el formulario */
+.mi-formulario {
+  background-color: #118AB2;
+  padding: 50px;
+  margin: 100px;
+}
+
+.form-label {
+  font-weight: bolder;
+  color: white;
+}
+
+
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; /* Evita el desplazamiento horizontal */
+  margin: 0;
+  padding: 0;
+}
+
+/* Fondo de pantalla */
+.bodyregistro {
+  background-image: url('cdmx.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+/* Estilos de la navbar */
+.navbar {
+  padding: 0;
+}
+
+.container-fluid {
+  background-color: #EF476F;
+  padding: 2%;
+  margin: 0;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+}
+
+.logo {
+  width: 4%;
+  height: 4%;
+  margin-right: 20px;
+}
+
+/* Estilos del formulario */
+.mi-formulario {
+  background-color: rgba(17, 138, 178, 0.9); /* Fondo semitransparente */
+  padding: 50px;
+  margin: 100px auto; /* Centrar el formulario */
+  max-width: 500px; /* Ancho máximo del formulario */
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.titulo-responsive {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .titulo-responsive {
+      font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .titulo-responsive {
+      font-size: 2rem;
+  }
+}
+
+.form-label {
+  font-weight: bolder;
+  color: white;
+}
+
+/* Ajuste de los márgenes para que no aparezca desplazamiento */
+.container {
+  padding: 20px;
+}
+
+
